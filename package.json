@@ -1,7 +1,7 @@
 {
-  "name": "ace-rentals",
+  "name": "Backyard-Bash",
   "version": "1.0.0",
-  "description": "A sample UI page",
+  "description": "Cricket Tournament Website",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

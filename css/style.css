@@ -1,5 +1,5 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 16px; }
 
 @media only screen and (min-width: 1200px) {
@@ -24,10 +24,12 @@ body {
   font-weight: 500; }
 
 .header-cart i {
-  color: #b8232f; }
+  color: #F9FD41; }
 
-.gvr-navbar a {
-  font-weight: 600; }
+.gvr-navbar {
+  background: #1B1B1F; }
+  .gvr-navbar a {
+    font-weight: 600; }
 
 footer {
   background: #3e3e3e; }
@@ -40,8 +42,8 @@ footer {
     color: #FAA21B; }
 
 .banner-background {
-  background-image: url("../img/Train-banner.jpg");
-  height: 55vh;
+  background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/banner.jpg");
+  height: 65vh;
   background-position: center;
   background-attachment: scroll;
   background-repeat: no-repeat;
@@ -51,10 +53,11 @@ footer {
   background-size: cover; }
 
 .button {
-  padding: 1rem 3rem; }
+  padding: 1rem 3rem;
+  border-radius: 100px; }
 
 .button-primary {
-  background: #b8232f;
+  background: #F9FD41;
   color: white; }
 
 .book-now {
