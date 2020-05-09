@@ -1,6 +1,17 @@
+header{
+    position: absolute;
+    width: 100%;
+    .backyard-navbar{
+        a{
+            font-size: 1.3rem;
+            font-weight: bold;
+        }
+    }
+}
 .top-nav{
     background:#F4F7F8;
     color:$text-color;
+
 }
 
 .header-social-icons{
@@ -22,10 +33,4 @@
   i{
     color:$primary-color;
   }
-}
-.gvr-navbar{
-    background: $secondary-color;
-    a{
-        font-weight:600;
-    }
 }
